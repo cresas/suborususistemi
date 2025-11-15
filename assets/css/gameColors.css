@@ -582,7 +582,7 @@ body {
   border: 3px solid var(--main-corporate-color);
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (min-resolution: 192dpi) {
   .g__ol__wp.act.wrg span::after {
     border: 2px solid var(--main-corporate-color);
   }

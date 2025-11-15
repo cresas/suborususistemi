@@ -59,7 +59,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 200;
-  src: url(../../assets/fonts/common/nunito-v16-latin-200.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-200.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-200.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-200.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* nunito-300 - latin */
@@ -67,7 +67,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 300;
-  src: url(../../assets/fonts/common/nunito-v16-latin-300.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-300.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-300.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-300.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* nunito-regular - latin */
@@ -75,7 +75,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  src: url(../../assets/fonts/common/nunito-v16-latin-regular.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-regular.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-regular.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-regular.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* nunito-600 - latin */
@@ -83,7 +83,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
-  src: url(../../assets/fonts/common/nunito-v16-latin-600.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-600.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-600.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-600.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* nunito-700 - latin */
@@ -91,7 +91,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
-  src: url(../../assets/fonts/common/nunito-v16-latin-700.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-700.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-700.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-700.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* nunito-900 - latin */
@@ -99,7 +99,7 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 900;
-  src: url(../../assets/fonts/common/nunito-v16-latin-900.woff2?v=1761915049) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-900.woff?v=1761915049) format("woff");
+  src: url(../../assets/fonts/common/nunito-v16-latin-900.woff2?v=1762858036) format("woff2"), url(../../assets/fonts/common/nunito-v16-latin-900.woff?v=1762858036) format("woff");
   font-display: swap;
 }
 /* Media queries
@@ -1113,8 +1113,7 @@ body {
   background-position: calc(100% - 0.75rem) center;
   border: 1px solid #2B2D30;
   border-radius: 9999em;
-  -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 html {
@@ -2875,7 +2874,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   flex-direction: column;
   width: 340px;
   height: 250px;
-  background: url(../../assets/img/common/svg/login-box.svg?v=1761915049) no-repeat center;
+  background: url(../../assets/img/common/svg/login-box.svg?v=1762858036) no-repeat center;
   background-size: 100%;
 }
 @media (min-width: 1024px) {
@@ -3516,13 +3515,10 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
 }
 .g__cnt__end__scr__btn.act ~ .g__cnt__end__src__tbl .g__cnt__end__src__tbl__wrp__nf__nsw__tt.wrng {
   text-decoration: line-through;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
   text-decoration-thickness: initial;
-  -webkit-text-decoration-style: initial;
-          text-decoration-style: initial;
-  -webkit-text-decoration-color: initial;
-          text-decoration-color: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
 }
 .g__cnt__end__scr__btn.act ~ .g__cnt__end__src__tbl .g__cnt__end__src__tbl__wrp__i {
   width: 10%;
@@ -3724,8 +3720,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2712193847;
   transform: rotate(131.363761032deg);
   animation: drop-0 8.0219180291s 1.8087262386s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-0 {
   100% {
@@ -3742,8 +3737,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1445098722;
   transform: rotate(107.979190776deg);
   animation: drop-1 8.1412519438s 7.1912332316s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-1 {
   100% {
@@ -3760,8 +3754,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7157484697;
   transform: rotate(136.011233232deg);
   animation: drop-2 8.4043383925s 5.0203055119s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-2 {
   100% {
@@ -3778,8 +3771,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5476299077;
   transform: rotate(173.50323228deg);
   animation: drop-3 8.7963288466s 6.2672087483s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-3 {
   100% {
@@ -3796,8 +3788,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7162994204;
   transform: rotate(215.505259524deg);
   animation: drop-4 8.84377783s 5.0342905864s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-4 {
   100% {
@@ -3814,8 +3805,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7104398081;
   transform: rotate(210.110712948deg);
   animation: drop-5 8.542040777s 1.6719570014s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-5 {
   100% {
@@ -3832,8 +3822,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3391392028;
   transform: rotate(354.19483998deg);
   animation: drop-6 8.9841403557s 7.6999702565s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-6 {
   100% {
@@ -3850,8 +3839,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5345734264;
   transform: rotate(303.5951496deg);
   animation: drop-7 8.4037532911s 3.338810955s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-7 {
   100% {
@@ -3868,8 +3856,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5304993213;
   transform: rotate(282.498531552deg);
   animation: drop-8 8.6880237072s 5.8445545722s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-8 {
   100% {
@@ -3886,8 +3873,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8924572968;
   transform: rotate(43.483672476deg);
   animation: drop-9 8.1117154117s 5.7999346565s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-9 {
   100% {
@@ -3904,8 +3890,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8882930283;
   transform: rotate(314.073115956deg);
   animation: drop-10 8.4824251939s 1.8583293926s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-10 {
   100% {
@@ -3922,8 +3907,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1842437574;
   transform: rotate(20.476704996deg);
   animation: drop-11 8.5655271969s 3.4923682704s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-11 {
   100% {
@@ -3940,8 +3924,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6919280279;
   transform: rotate(135.405193536deg);
   animation: drop-12 8.8310780821s 8.1571736995s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-12 {
   100% {
@@ -3958,8 +3941,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8522039373;
   transform: rotate(325.755509508deg);
   animation: drop-13 8.135276723s 8.7941327828s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-13 {
   100% {
@@ -3976,8 +3958,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7781558243;
   transform: rotate(142.944741036deg);
   animation: drop-14 8.8869913916s 5.4409043285s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-14 {
   100% {
@@ -3994,8 +3975,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7317934215;
   transform: rotate(166.541059476deg);
   animation: drop-15 8.6420878647s 1.3496556143s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-15 {
   100% {
@@ -4012,8 +3992,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7926423804;
   transform: rotate(239.947187976deg);
   animation: drop-16 8.3026131439s 6.3589990673s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-16 {
   100% {
@@ -4030,8 +4009,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2647014495;
   transform: rotate(358.767262728deg);
   animation: drop-17 8.1092301546s 2.1546275792s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-17 {
   100% {
@@ -4048,8 +4026,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0920087242;
   transform: rotate(176.425587828deg);
   animation: drop-18 8.4852915009s 1.301471614s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-18 {
   100% {
@@ -4066,8 +4043,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2149709329;
   transform: rotate(303.565521312deg);
   animation: drop-19 8.7313902215s 4.6808414184s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-19 {
   100% {
@@ -4084,8 +4060,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3084648944;
   transform: rotate(206.485729164deg);
   animation: drop-20 8.1229778344s 4.374114482s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-20 {
   100% {
@@ -4102,8 +4077,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9047272762;
   transform: rotate(123.835964292deg);
   animation: drop-21 8.5202181495s 8.4365154049s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-21 {
   100% {
@@ -4120,8 +4094,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0834936184;
   transform: rotate(314.2540062deg);
   animation: drop-22 8.3863990273s 5.9106092273s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-22 {
   100% {
@@ -4138,8 +4111,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.671775323;
   transform: rotate(148.271009292deg);
   animation: drop-23 8.792403719s 3.3662572929s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-23 {
   100% {
@@ -4156,8 +4128,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2738552656;
   transform: rotate(57.199614444deg);
   animation: drop-24 8.2668023019s 8.3157334198s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-24 {
   100% {
@@ -4174,8 +4145,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.833974805;
   transform: rotate(54.586575612deg);
   animation: drop-25 8.7229622861s 7.6262309166s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-25 {
   100% {
@@ -4192,8 +4162,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3570435382;
   transform: rotate(197.578232784deg);
   animation: drop-26 8.329411347s 7.3603176683s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-26 {
   100% {
@@ -4210,8 +4179,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.462310847;
   transform: rotate(23.390009748deg);
   animation: drop-27 8.5867969373s 8.8539935532s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-27 {
   100% {
@@ -4228,8 +4196,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9901502506;
   transform: rotate(137.1155544deg);
   animation: drop-28 8.8170836061s 6.0922290763s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-28 {
   100% {
@@ -4246,8 +4213,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8891670594;
   transform: rotate(161.569963152deg);
   animation: drop-29 8.5149383269s 1.9226809895s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-29 {
   100% {
@@ -4264,8 +4230,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1078812504;
   transform: rotate(6.830324352deg);
   animation: drop-30 8.9882984981s 8.0326188747s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-30 {
   100% {
@@ -4282,8 +4247,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4584616485;
   transform: rotate(295.388144352deg);
   animation: drop-31 8.0916078583s 4.1880032813s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-31 {
   100% {
@@ -4300,8 +4264,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2813114704;
   transform: rotate(180.858922164deg);
   animation: drop-32 8.0069576407s 8.9319108533s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-32 {
   100% {
@@ -4318,8 +4281,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8862520902;
   transform: rotate(59.790321468deg);
   animation: drop-33 8.4493719813s 5.0519299302s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-33 {
   100% {
@@ -4336,8 +4298,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9294612143;
   transform: rotate(304.714026612deg);
   animation: drop-34 8.9581974954s 5.3934795295s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-34 {
   100% {
@@ -4354,8 +4315,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0865720032;
   transform: rotate(265.748905044deg);
   animation: drop-35 8.6765048344s 4.4280837795s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-35 {
   100% {
@@ -4372,8 +4332,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4040515557;
   transform: rotate(70.946288244deg);
   animation: drop-36 8.0193561747s 5.543122829s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-36 {
   100% {
@@ -4390,8 +4349,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6589224757;
   transform: rotate(259.36996428deg);
   animation: drop-37 8.5535310676s 6.1310192082s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-37 {
   100% {
@@ -4408,8 +4366,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6092124973;
   transform: rotate(206.166991536deg);
   animation: drop-38 8.9834145841s 3.1283697534s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-38 {
   100% {
@@ -4426,8 +4383,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5407324104;
   transform: rotate(205.895578788deg);
   animation: drop-39 8.8809507601s 8.8052357209s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-39 {
   100% {
@@ -4444,8 +4400,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5327477576;
   transform: rotate(190.806363864deg);
   animation: drop-40 8.717089734s 7.6381016139s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-40 {
   100% {
@@ -4462,8 +4417,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8294115469;
   transform: rotate(78.646622652deg);
   animation: drop-41 8.2165511108s 3.9081328535s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-41 {
   100% {
@@ -4480,8 +4434,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8368182229;
   transform: rotate(118.551359268deg);
   animation: drop-42 8.428148261s 5.5665465417s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-42 {
   100% {
@@ -4498,8 +4451,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.009122789;
   transform: rotate(207.146055564deg);
   animation: drop-43 8.4288503189s 7.616234409s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-43 {
   100% {
@@ -4516,8 +4468,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4609021105;
   transform: rotate(266.30415108deg);
   animation: drop-44 8.1775363894s 1.4948072966s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-44 {
   100% {
@@ -4534,8 +4485,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9160499709;
   transform: rotate(79.852928184deg);
   animation: drop-45 8.738906144s 2.8244962918s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-45 {
   100% {
@@ -4552,8 +4502,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6054376985;
   transform: rotate(53.702658432deg);
   animation: drop-46 8.1350483535s 6.0002592419s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-46 {
   100% {
@@ -4570,8 +4519,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1347150588;
   transform: rotate(2.02054554deg);
   animation: drop-47 8.5083992619s 7.926254659s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-47 {
   100% {
@@ -4588,8 +4536,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4967779255;
   transform: rotate(109.60177302deg);
   animation: drop-48 8.1417437219s 4.0529014374s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-48 {
   100% {
@@ -4606,8 +4553,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5563898474;
   transform: rotate(206.9990676deg);
   animation: drop-49 8.575674201s 3.510780541s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-49 {
   100% {
@@ -4624,8 +4570,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9527394188;
   transform: rotate(312.945900012deg);
   animation: drop-50 8.3643122811s 7.8323880855s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-50 {
   100% {
@@ -4642,8 +4587,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8236102086;
   transform: rotate(330.197767668deg);
   animation: drop-51 8.7734357174s 5.8395900136s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-51 {
   100% {
@@ -4660,8 +4604,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9753272946;
   transform: rotate(318.894131376deg);
   animation: drop-52 8.2266068024s 2.9008794899s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-52 {
   100% {
@@ -4678,8 +4621,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6643108136;
   transform: rotate(228.48677154deg);
   animation: drop-53 8.6505871236s 4.2930237629s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-53 {
   100% {
@@ -4696,8 +4638,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8094068899;
   transform: rotate(183.000587652deg);
   animation: drop-54 8.0177069418s 8.8396325686s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-54 {
   100% {
@@ -4714,8 +4655,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2553416064;
   transform: rotate(165.101523372deg);
   animation: drop-55 8.5968292033s 4.3116714741s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-55 {
   100% {
@@ -4732,8 +4672,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9427264925;
   transform: rotate(23.998599504deg);
   animation: drop-56 8.7483052182s 6.8908913718s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-56 {
   100% {
@@ -4750,8 +4689,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8261147605;
   transform: rotate(181.977405804deg);
   animation: drop-57 8.7948771623s 2.9183723036s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-57 {
   100% {
@@ -4768,8 +4706,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4654621878;
   transform: rotate(101.877844788deg);
   animation: drop-58 8.2832248492s 6.7568129072s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-58 {
   100% {
@@ -4786,8 +4723,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9503787565;
   transform: rotate(296.010287532deg);
   animation: drop-59 8.0734068831s 8.2033666515s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-59 {
   100% {
@@ -4804,8 +4740,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7193761749;
   transform: rotate(15.94711296deg);
   animation: drop-60 8.7931606254s 3.6068310062s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-60 {
   100% {
@@ -4822,8 +4757,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9252706951;
   transform: rotate(21.644303976deg);
   animation: drop-61 8.74961071s 6.1546468179s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-61 {
   100% {
@@ -4840,8 +4774,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0071339408;
   transform: rotate(3.34186182deg);
   animation: drop-62 8.2955230769s 1.2472074644s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-62 {
   100% {
@@ -4858,8 +4791,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.143002902;
   transform: rotate(290.981602152deg);
   animation: drop-63 8.1581168008s 2.3323744898s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-63 {
   100% {
@@ -4876,8 +4808,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0498175218;
   transform: rotate(333.8107452deg);
   animation: drop-64 8.2423595627s 4.1441342005s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-64 {
   100% {
@@ -4894,8 +4825,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4420360147;
   transform: rotate(229.463861112deg);
   animation: drop-65 8.1780060809s 5.0315753789s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-65 {
   100% {
@@ -4912,8 +4842,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8232733231;
   transform: rotate(131.295765276deg);
   animation: drop-66 8.3344407408s 5.5410568297s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-66 {
   100% {
@@ -4930,8 +4859,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2067133295;
   transform: rotate(319.8117591deg);
   animation: drop-67 8.447649007s 1.7214603695s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-67 {
   100% {
@@ -4948,8 +4876,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4491494991;
   transform: rotate(258.17442102deg);
   animation: drop-68 8.8971012545s 4.1867971559s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-68 {
   100% {
@@ -4966,8 +4893,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9697616391;
   transform: rotate(83.791884996deg);
   animation: drop-69 8.357273793s 5.6699658916s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-69 {
   100% {
@@ -4984,8 +4910,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6433509207;
   transform: rotate(315.536502888deg);
   animation: drop-70 8.6495105143s 4.4638690886s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-70 {
   100% {
@@ -5002,8 +4927,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6104954783;
   transform: rotate(106.072507296deg);
   animation: drop-71 8.1865013626s 8.6432980867s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-71 {
   100% {
@@ -5020,8 +4944,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7385883359;
   transform: rotate(299.282920344deg);
   animation: drop-72 8.4047748961s 5.0546463577s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-72 {
   100% {
@@ -5038,8 +4961,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8864945488;
   transform: rotate(202.55120064deg);
   animation: drop-73 8.334914102s 7.3783616766s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-73 {
   100% {
@@ -5056,8 +4978,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.842141513;
   transform: rotate(107.65966554deg);
   animation: drop-74 8.7009790546s 4.7090755518s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-74 {
   100% {
@@ -5074,8 +4995,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0894066857;
   transform: rotate(305.863238232deg);
   animation: drop-75 8.5561081658s 4.8311384924s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-75 {
   100% {
@@ -5092,8 +5012,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0047604145;
   transform: rotate(198.23816736deg);
   animation: drop-76 8.3959999496s 4.1685179818s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-76 {
   100% {
@@ -5110,8 +5029,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5815711036;
   transform: rotate(72.291515292deg);
   animation: drop-77 8.4055765331s 4.8789510871s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-77 {
   100% {
@@ -5128,8 +5046,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1112849757;
   transform: rotate(166.404624444deg);
   animation: drop-78 8.1132425211s 8.2746593414s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-78 {
   100% {
@@ -5146,8 +5063,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2532193997;
   transform: rotate(273.47135904deg);
   animation: drop-79 8.9447792223s 3.5067082825s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-79 {
   100% {
@@ -5164,8 +5080,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6726809072;
   transform: rotate(131.590629648deg);
   animation: drop-80 8.894737009s 1.3182438121s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-80 {
   100% {
@@ -5182,8 +5097,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1387768161;
   transform: rotate(265.2780735deg);
   animation: drop-81 8.9885432617s 6.3492242739s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-81 {
   100% {
@@ -5200,8 +5114,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3041398835;
   transform: rotate(68.108360112deg);
   animation: drop-82 8.5128576287s 1.0757618078s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-82 {
   100% {
@@ -5218,8 +5131,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9185996081;
   transform: rotate(318.318447528deg);
   animation: drop-83 8.6105528931s 7.2580225505s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-83 {
   100% {
@@ -5236,8 +5148,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2807468245;
   transform: rotate(164.386438668deg);
   animation: drop-84 8.0928201716s 3.0005014321s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-84 {
   100% {
@@ -5254,8 +5165,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7487810478;
   transform: rotate(274.905924876deg);
   animation: drop-85 8.8440099152s 6.8168731421s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-85 {
   100% {
@@ -5272,8 +5182,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3451987655;
   transform: rotate(300.815293608deg);
   animation: drop-86 8.2310661026s 1.442161873s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-86 {
   100% {
@@ -5290,8 +5199,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0188594327;
   transform: rotate(292.123153872deg);
   animation: drop-87 8.6810222032s 6.0245999873s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-87 {
   100% {
@@ -5308,8 +5216,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5260631266;
   transform: rotate(283.591668384deg);
   animation: drop-88 8.6038626506s 3.5519821617s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-88 {
   100% {
@@ -5326,8 +5233,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2445664689;
   transform: rotate(120.026893284deg);
   animation: drop-89 8.0127100011s 4.8502087978s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-89 {
   100% {
@@ -5344,8 +5250,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2988405771;
   transform: rotate(51.225588288deg);
   animation: drop-90 8.4710845804s 2.8709191727s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-90 {
   100% {
@@ -5362,8 +5267,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4758303816;
   transform: rotate(333.649661544deg);
   animation: drop-91 8.6512058812s 7.845509633s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-91 {
   100% {
@@ -5380,8 +5284,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1004433245;
   transform: rotate(59.437875708deg);
   animation: drop-92 8.1050016604s 1.784882284s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-92 {
   100% {
@@ -5398,8 +5301,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5774763169;
   transform: rotate(146.894145804deg);
   animation: drop-93 8.8931501326s 6.6848110854s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-93 {
   100% {
@@ -5416,8 +5318,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7085050042;
   transform: rotate(147.820537188deg);
   animation: drop-94 8.4724152715s 5.1497499058s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-94 {
   100% {
@@ -5434,8 +5335,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9155539632;
   transform: rotate(157.826948076deg);
   animation: drop-95 8.8052345898s 5.3881411451s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-95 {
   100% {
@@ -5452,8 +5352,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4361211884;
   transform: rotate(166.972593888deg);
   animation: drop-96 8.1207959243s 7.0040364582s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-96 {
   100% {
@@ -5470,8 +5369,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1344642824;
   transform: rotate(342.878449572deg);
   animation: drop-97 8.4439802921s 3.9040057087s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-97 {
   100% {
@@ -5488,8 +5386,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.302182019;
   transform: rotate(152.283035268deg);
   animation: drop-98 8.31801214s 5.226125106s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-98 {
   100% {
@@ -5506,8 +5403,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3328579338;
   transform: rotate(191.963514384deg);
   animation: drop-99 8.4903572367s 1.7653296131s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-99 {
   100% {
@@ -5524,8 +5420,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1218020354;
   transform: rotate(308.652745428deg);
   animation: drop-100 8.1782457834s 4.7743227762s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-100 {
   100% {
@@ -5542,8 +5437,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5351397111;
   transform: rotate(358.27848deg);
   animation: drop-101 8.3218395721s 2.5252338069s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-101 {
   100% {
@@ -5560,8 +5454,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9814873843;
   transform: rotate(8.10877392deg);
   animation: drop-102 8.8509600936s 1.9123406009s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-102 {
   100% {
@@ -5578,8 +5471,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0641279089;
   transform: rotate(275.57200908deg);
   animation: drop-103 8.4101936681s 3.4681248777s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-103 {
   100% {
@@ -5596,8 +5488,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8829852981;
   transform: rotate(100.20039822deg);
   animation: drop-104 8.833699393s 1.699276826s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-104 {
   100% {
@@ -5614,8 +5505,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9816077394;
   transform: rotate(185.964503364deg);
   animation: drop-105 8.1252678169s 3.4262405232s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-105 {
   100% {
@@ -5632,8 +5522,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4728609176;
   transform: rotate(168.301522044deg);
   animation: drop-106 8.2346312746s 1.4137639664s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-106 {
   100% {
@@ -5650,8 +5539,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3442058984;
   transform: rotate(326.66289318deg);
   animation: drop-107 8.2140906056s 2.2390635283s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-107 {
   100% {
@@ -5668,8 +5556,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0040422231;
   transform: rotate(39.238379676deg);
   animation: drop-108 8.7142918985s 2.5935374215s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-108 {
   100% {
@@ -5686,8 +5573,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8144217773;
   transform: rotate(338.852434716deg);
   animation: drop-109 8.576081881s 2.5830735264s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-109 {
   100% {
@@ -5704,8 +5590,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8981297857;
   transform: rotate(14.628677004deg);
   animation: drop-110 8.4639721305s 4.3501115269s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-110 {
   100% {
@@ -5722,8 +5607,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9146440475;
   transform: rotate(231.662837556deg);
   animation: drop-111 8.6355563733s 1.7957237993s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-111 {
   100% {
@@ -5740,8 +5624,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8382645069;
   transform: rotate(254.349894132deg);
   animation: drop-112 8.3557173681s 3.9173162495s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-112 {
   100% {
@@ -5758,8 +5641,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7129161406;
   transform: rotate(14.464921572deg);
   animation: drop-113 8.9181470958s 7.4466168912s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-113 {
   100% {
@@ -5776,8 +5658,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9066448249;
   transform: rotate(103.609827468deg);
   animation: drop-114 8.5561952882s 7.1690168026s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-114 {
   100% {
@@ -5794,8 +5675,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3042999001;
   transform: rotate(143.115598404deg);
   animation: drop-115 8.8397310616s 4.2198516584s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-115 {
   100% {
@@ -5812,8 +5692,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4109688163;
   transform: rotate(1.414754856deg);
   animation: drop-116 8.2202123854s 7.8987688967s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-116 {
   100% {
@@ -5830,8 +5709,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2832380442;
   transform: rotate(311.185286172deg);
   animation: drop-117 8.6199074313s 5.2182234421s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-117 {
   100% {
@@ -5848,8 +5726,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3161823681;
   transform: rotate(240.112701324deg);
   animation: drop-118 8.8183724244s 6.3897980088s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-118 {
   100% {
@@ -5866,8 +5743,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4441944257;
   transform: rotate(73.35147564deg);
   animation: drop-119 8.5444820841s 6.2935096171s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-119 {
   100% {
@@ -5884,8 +5760,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4328748954;
   transform: rotate(227.639905128deg);
   animation: drop-120 8.921787106s 5.7358329989s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-120 {
   100% {
@@ -5902,8 +5777,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.660809423;
   transform: rotate(268.320944376deg);
   animation: drop-121 8.8478083283s 1.9194504154s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-121 {
   100% {
@@ -5920,8 +5794,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4551670791;
   transform: rotate(61.91410446deg);
   animation: drop-122 8.3827368408s 1.3799368397s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-122 {
   100% {
@@ -5938,8 +5811,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5678324462;
   transform: rotate(184.734932436deg);
   animation: drop-123 8.2535383664s 4.0559136292s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-123 {
   100% {
@@ -5956,8 +5828,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9954549796;
   transform: rotate(57.531359988deg);
   animation: drop-124 8.1705691864s 1.129794038s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-124 {
   100% {
@@ -5974,8 +5845,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4599349025;
   transform: rotate(279.616145364deg);
   animation: drop-125 8.4226485526s 6.9724643042s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-125 {
   100% {
@@ -5992,8 +5862,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1724069301;
   transform: rotate(126.089646588deg);
   animation: drop-126 8.8140719645s 5.3301276626s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-126 {
   100% {
@@ -6010,8 +5879,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8984316869;
   transform: rotate(180.138364344deg);
   animation: drop-127 8.8692011101s 4.7333734146s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-127 {
   100% {
@@ -6028,8 +5896,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9065085211;
   transform: rotate(269.399545632deg);
   animation: drop-128 8.2850498288s 5.8788102939s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-128 {
   100% {
@@ -6046,8 +5913,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6157560424;
   transform: rotate(12.546653508deg);
   animation: drop-129 8.4990110294s 8.5026383232s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-129 {
   100% {
@@ -6064,8 +5930,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6936204751;
   transform: rotate(22.225115268deg);
   animation: drop-130 8.5955434661s 6.8190130824s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-130 {
   100% {
@@ -6082,8 +5947,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9970059781;
   transform: rotate(20.961357804deg);
   animation: drop-131 8.5087447641s 2.0702178781s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-131 {
   100% {
@@ -6100,8 +5964,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9907993316;
   transform: rotate(148.685463324deg);
   animation: drop-132 8.9190128972s 6.0234806269s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-132 {
   100% {
@@ -6118,8 +5981,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6251533192;
   transform: rotate(40.410053028deg);
   animation: drop-133 8.9199158559s 8.178536323s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-133 {
   100% {
@@ -6136,8 +5998,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.596056732;
   transform: rotate(338.041184868deg);
   animation: drop-134 8.103826416s 6.7079449438s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-134 {
   100% {
@@ -6154,8 +6015,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.1190063539;
   transform: rotate(253.1857401deg);
   animation: drop-135 8.5995247851s 7.7256071723s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-135 {
   100% {
@@ -6172,8 +6032,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.6512428077;
   transform: rotate(162.200741508deg);
   animation: drop-136 8.0204702051s 3.4457823629s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-136 {
   100% {
@@ -6190,8 +6049,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0095500027;
   transform: rotate(118.09464084deg);
   animation: drop-137 8.6408781076s 8.1114167978s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-137 {
   100% {
@@ -6208,8 +6066,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.341382915;
   transform: rotate(112.949857584deg);
   animation: drop-138 8.6610971727s 5.2263298442s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-138 {
   100% {
@@ -6226,8 +6083,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.2529426319;
   transform: rotate(253.957116312deg);
   animation: drop-139 8.4049525757s 5.3016452083s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-139 {
   100% {
@@ -6244,8 +6100,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5101301769;
   transform: rotate(283.357451484deg);
   animation: drop-140 8.5557160679s 5.3234408079s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-140 {
   100% {
@@ -6262,8 +6117,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.798190183;
   transform: rotate(354.018095604deg);
   animation: drop-141 8.8416666084s 8.1869932637s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-141 {
   100% {
@@ -6280,8 +6134,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.8351535923;
   transform: rotate(306.5361894deg);
   animation: drop-142 8.5366978423s 6.9279554564s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-142 {
   100% {
@@ -6298,8 +6151,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.5233007802;
   transform: rotate(313.319777868deg);
   animation: drop-143 8.0186713165s 6.2313327759s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-143 {
   100% {
@@ -6316,8 +6168,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.9124509365;
   transform: rotate(187.558486884deg);
   animation: drop-144 8.3333654222s 7.1929969675s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-144 {
   100% {
@@ -6334,8 +6185,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0286444329;
   transform: rotate(257.573730096deg);
   animation: drop-145 8.4427380714s 5.6328522751s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-145 {
   100% {
@@ -6352,8 +6202,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.516997685;
   transform: rotate(92.216167812deg);
   animation: drop-146 8.1455768353s 1.9804605737s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-146 {
   100% {
@@ -6370,8 +6219,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.3674760298;
   transform: rotate(100.430132148deg);
   animation: drop-147 8.3531987734s 7.3834721124s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-147 {
   100% {
@@ -6388,8 +6236,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.4147694674;
   transform: rotate(248.80615902deg);
   animation: drop-148 8.3030003546s 8.9056503172s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-148 {
   100% {
@@ -6406,8 +6253,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 0.7872282936;
   transform: rotate(86.669116524deg);
   animation: drop-149 8.0638104713s 3.2071308722s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-149 {
   100% {
@@ -6424,8 +6270,7 @@ body.g__mov--keyb .hd__lvs__wp__nr, body.g__mov--keyb .hd__pts__wp__nr {
   opacity: 1.0019766256;
   transform: rotate(145.749646476deg);
   animation: drop-150 8.5261639186s 7.912701396s infinite;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 @keyframes drop-150 {
   100% {
@@ -7674,7 +7519,7 @@ body.g__mov--keyb .ftr .clk__wp {
   width: 24px;
   height: 18px;
   display: block;
-  background-image: url(../../assets/img/i-perfil-18px.svg?v=1761915049);
+  background-image: url(../../assets/img/i-perfil-18px.svg?v=1762858036);
   background-repeat: no-repeat;
   background-position: 0 -76px;
   background-size: 24px auto;
@@ -8405,13 +8250,12 @@ body.act .g__bnn .ftr.fscbtn .btns .fsc {
   transform-origin: 50% 50%;
   transform: scale(1) translate(-50%, -50%);
   image-rendering: optimizeQuality;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: border 0.3s ease-out;
   z-index: 4;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.5), 0 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.7);
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+@media (min-resolution: 2dppx) {
   .g__img__cntr img {
     box-shadow: 0 -0.5px 0 rgba(255, 255, 255, 0.5), 0 8px 0 rgba(0, 0, 0, 0.2), 0 0.5px 0 rgba(0, 0, 0, 0.7);
   }

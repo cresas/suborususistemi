@@ -105,8 +105,7 @@
   border: 2px solid #333;
   border-radius: 50%;
   border-spacing: 4px;
-  -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   outline: none;
   transition: border 0.2s ease;
 }
@@ -802,7 +801,6 @@
   grid-template-columns: repeat(var(--grd), auto);
   grid-template-rows: repeat(var(--grd), auto);
   gap: calc(var(--px) / 24);
-  width: -webkit-max-content;
   width: max-content;
   max-width: 100%;
   max-height: 100%;
